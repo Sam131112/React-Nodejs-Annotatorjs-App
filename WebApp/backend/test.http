@@ -1,0 +1,9 @@
+POST http://localhost:3005/api/annotations
+Content-Type: application/json
+
+{
+    "category":"one",
+    "quote":"hi",
+    "tags":["Sam"],
+    "text":"This is a comment"
+}
